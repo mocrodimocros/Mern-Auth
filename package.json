@@ -1,0 +1,35 @@
+{
+  "name": "mern-auth",
+  "version": "1.0.0",
+  "description": "login and authorization app to practice the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocrodimocros/Mern-Auth.git"
+  },
+  "author": "CHOUKRANI Youssef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mocrodimocros/Mern-Auth/issues"
+  },
+  "homepage": "https://github.com/mocrodimocros/Mern-Auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
